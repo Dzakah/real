@@ -3,7 +3,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { TwoBedPage } from '../two-bed/two-bed';
 import { ThreeBedPage } from '../three-bed/three-bed';
 import { FourBedPage } from '../four-bed/four-bed';
-import { FiveBedPage } from '../five-bed/five-bed';
 import { MansionPage } from '../mansion/mansion';
 
 /**
@@ -38,9 +37,7 @@ export class GalleryPage {
   Fourbed(){
     this.navCtrl.push(FourBedPage);
   }
-  Fivebed(){
-    this.navCtrl.push(FiveBedPage);
-}
+  
   Mansion(){
     this.navCtrl.push(MansionPage);
   }
